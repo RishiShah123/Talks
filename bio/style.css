@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500i,700');
+
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.container {
+  width: 85%;
+
+  margin: auto auto;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    grid-gap: 1rem;
+    grid-template-areas:
+    "topic_one"
+    "topic_two"
+    "topic_three"
+    "topic_four"
+    "topic_five"
+    "topic_six"
+    "topics_seven"
+    "topic_eight"
+    "topic_nine"
+    "topic_ten"
+    "topic_eleven";
+
+
+}
+
+.grid__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+header{
+	background: white;
+	padding: 60px;
+	grid-area: header;
+
+
+}
+header > h1 {
+	color: #25272E;
+	text-align: center;
+	font-family: Asap, sans-serif;
+	font-size: 60px;
+}
+header > h5 {
+	color: #25272E;
+	text-align: center;
+	font-family: Asap, sans-serif;
+	font-size: 10px;
+}
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid__t-1{
+	grid-area: topic_one;
+	display: grid;
+}
+.grid__t-2{
+	grid-area: topic_two;
+	display: grid;
+}
+.grid__t-3{
+	grid-area: topic_three;
+	display: grid;
+}
+.grid__t-4{
+	grid-area: topic_four;
+	display: grid;
+}
+.grid__t-5{
+	grid-area: topic_five;
+	display: grid;
+}
+.grid__t-6{
+	grid-area: topic_six;
+	display: grid;
+}
+.grid__t-7{
+	grid-area: topic_seven;
+	display: grid;
+}
+.grid__t-8{
+	grid-area: topic_eight;
+	display: grid;
+}
+.grid__t-9{
+	grid-area: topic_nine;
+	display: grid;
+}
+.grid__t-10{
+	grid-area: topic_ten;
+	display: grid;
+}
+
+.grid__t-11{
+	grid-area: topic_eleven;
+	display: grid;
+}
+
+
+
+@media screen and (min-width: 736px)
+
+{
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 1rem;
+    grid-template-areas:
+    "t-1 t-2"
+    "t-3 t-4"
+    "t-5 t-6"
+    "t-7 t-8";
+
+
+}
+
+
+}
