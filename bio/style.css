@@ -129,17 +129,17 @@ header > h5 {
     grid-template-rows: repeat(11, 1fr);
     grid-gap: 1rem;
     grid-template-areas:
-    "topic_one"
-    "topic_two"
-    "topic_three"
-    "topic_four"
-    "topic_five"
-    "topic_six"
-    "topics_seven"
-    "topic_eight"
-    "topic_nine"
-    "topic_ten"
-    "topic_eleven";
+    "t-1"
+    "t-2"
+    "t-3"
+    "t-4"
+    "t-5"
+    "t-6"
+    "t-7"
+    "t-8"
+    "t-9"
+    "t-10"
+    "t-11";
 
 
 }
