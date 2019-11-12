@@ -125,21 +125,14 @@ header > h5 {
 {
 .grid {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(11, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     grid-gap: 1rem;
     grid-template-areas:
-    "t-1"
-    "t-2"
-    "t-3"
-    "t-4"
-    "t-5"
-    "t-6"
-    "t-7"
-    "t-8"
-    "t-9"
-    "t-10"
-    "t-11";
+    "t-1 t-2"
+    "t-3 t-4"
+    "t-5 t-6"
+    "t-7 t-8";
 
 
 }
