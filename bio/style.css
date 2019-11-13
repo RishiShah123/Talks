@@ -19,22 +19,20 @@ html {
   margin: auto auto;
 }
 .grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(11, 1fr);
+  display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(7, 1fr);
     grid-gap: 4rem;
     grid-template-areas:
-    "topic_one"
-    "topic_two"
-    "topic_three"
-    "topic_four"
-    "topic_five"
-    "topic_six"
-    "topics_seven"
-    "topic_eight"
-    "topic_nine"
-    "topic_ten"
-    "topic_eleven";
+    "t-1 t-2"
+    "t-3 t-4"
+    "t-5 t-6"
+    "t-7 t-8"
+    "t-9 t-10"
+    "t-11 . ";
+
+ 
+    
 
 
 }
@@ -120,24 +118,30 @@ header > h5 {
 
 
 
-/* @media screen and (min-width: 900px)
+  @media screen and (max-width: 750px)
 
 {
-.grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(7, 1fr);
-    grid-gap: 1rem;
-    grid-template-areas:
-    "t-1 t-2"
-    "t-3 t-4"
-    "t-5 t-6"
-    "t-7 t-8"
-	    "t-9 t-10"
-	    "t-11 .";
+ .grid {
+    
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(11, 1fr);
+  grid-gap: 1rem;
+  grid-template-areas:
+  "t_1"
+  "t_2"
+  "t_3"
+  "t_4"
+  "t_5"
+  "t_6"
+  "t_7"
+  "t_8"
+  "t_9"
+  "t_10"
+  "t_11";
 
 
 }
 
 
-} */
+}
