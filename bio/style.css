@@ -22,7 +22,7 @@ html {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(11, 1fr);
-    grid-gap: 1rem;
+    grid-gap: 4rem;
     grid-template-areas:
     "topic_one"
     "topic_two"
