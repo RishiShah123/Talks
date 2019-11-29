@@ -30,12 +30,18 @@ html {
     "t-7 t-8"
     "t-9 t-10"
     "t-11 . ";
+<<<<<<< HEAD
+
+ 
+    
+=======
+>>>>>>> second commit
 
  
     
 
 
-}
+} 
 
 .grid__img {
   width: 100%;
@@ -118,7 +124,11 @@ header > h5 {
 
 
 
+<<<<<<< HEAD
   @media only screen and (max-device-width: 768px)
+=======
+  @media screen and (max-width: 750px)
+>>>>>>> second commit
 
 {
  .grid {
@@ -126,7 +136,11 @@ header > h5 {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(11, 1fr);
+<<<<<<< HEAD
   grid-gap: 4rem;
+=======
+  grid-gap: 1rem;
+>>>>>>> second commit
   grid-template-areas:
   "t_1"
   "t_2"
@@ -144,4 +158,8 @@ header > h5 {
 }
 
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> second commit
